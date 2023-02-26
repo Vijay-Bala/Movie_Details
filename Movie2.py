@@ -16,6 +16,7 @@ def get_movie_details(title):
             return f"Sorry, could not find details for {title}"
     else:
         return "Sorry, could not connect to the API."
+
 title = input("Please enter the movie title: ")
 details = get_movie_details(title)
 print(details)
