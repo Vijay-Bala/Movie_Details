@@ -1,3 +1,4 @@
+#install requests libraries
 import requests
 
 def get_movie_details(title):
@@ -17,6 +18,6 @@ def get_movie_details(title):
     else:
         return "Sorry, could not connect to the API."
 
-title = input("Please enter the movie title: ")
+title = input("Enter the title: ")
 details = get_movie_details(title)
 print(details)
